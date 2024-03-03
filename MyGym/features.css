@@ -56,5 +56,6 @@ img {
 body{
   background-image:url('images/gym_background.jpg');
   background-repeat: no-repeat;
-  background-size: 10000px;
+  background-size: 2000px;
+  background-color: black;
 }
