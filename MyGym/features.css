@@ -1,0 +1,60 @@
+  /* Style for the menu container */
+  .menu {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #333; /* Set background color of the menu */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Style for the menu items */
+.menu li {
+    float: left; /* Float the items to create a horizontal menu */
+}
+
+/* Style for the menu links */
+.menu li a {
+    display: block; /* Display links as block elements */
+    color: white; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 14px 20px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+}
+@keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+p:hover {
+   
+    animation: blink 1s infinite; /* Use the blink animation for 1 second and repeat infinitely */
+}
+img {
+    border: 2px solid black;
+    opacity: 0.8; /* Set the opacity to 0.5 (50% transparent) */
+    display: block; /* Make the image a block element */
+    max-width: 50%; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+}
+.content{
+   
+    font-size:30px;
+    color: black;
+    font-style: normal;
+  
+    text-align: center;
+    
+}
+
+/* Change background color of the menu item on hover */
+.menu li a:hover {
+    background-color: #555;
+   
+}
+body{
+  background-image:url('images/gym.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
