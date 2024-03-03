@@ -174,7 +174,7 @@ Meet the awesome people who have contributed to this project:
       <a href="https://github.com/Tridib2510">
         <img src="https://github.com/Tridib2510.png" width="100px;" alt="Shouvik2" style="border-radius:50%"/>
         <br />
-        <sub><b>Tridib Roy Chowdhuryk</b></sub>
+        <sub><b>Tridib Roy Chowdhury</b></sub>
       </a>
     </td>
     <td align="center">
