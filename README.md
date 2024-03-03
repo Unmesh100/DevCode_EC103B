@@ -5,8 +5,8 @@
 ## MyGym 💪🫵🤞
 
 
-<h1 align="center">Hi 👋, I'm Unmesh Ghosh</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="center">Hi 👋, HERE is my team DevCode</h1>
+<h3 align="center">  Web-Developer from India</h3>
 
 - 🔭 I’m currently working on [BEFIT](https://dev-code-ec-103-b.vercel.app/#)
 
@@ -150,12 +150,49 @@ This site is hosted by GitHub Pages, it is directly deployed via vercel and it w
 To run locally.<br>
 To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
-### Credits
-
 #### Content
-All content in this project was written by myself. 
+All content in this project was written by myteam DevCode. 
 
-#### Media
+## 🌊Contributors
+<div>
+<h1 align="center">
+ <b>Made with ❤️ by team DevCode
+<h1>
+</div>
+Meet the awesome people who have contributed to this project:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Unmesh100">
+        <img src="https://github.com/Unmesh100.png" width="100px;" alt="ritesh2004" style="border-radius:50%"/>
+        <br />
+        <sub><b>Unmesh Ghosh[Lead]</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Tridib2510">
+        <img src="https://github.com/Tridib2510.png" width="100px;" alt="Shouvik2" style="border-radius:50%"/>
+        <br />
+        <sub><b>Tridib Roy Chowdhuryk</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/">
+        <img src="https://github.com/.png" width="100px;" alt="moh-15" style="border-radius:50%"/>
+        <br />
+        <sub><b></b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/">
+        <img src="https://github.com/.png" width="100px;" alt="parthiv2406" style="border-radius:50%"/>
+        <br />
+        <sub><b></b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 
 
