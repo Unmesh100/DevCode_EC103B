@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Membership</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #010006;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, calc(50% - 10px)); /* Divide into two columns */
+            gap: 20px; /* Gap between the columns */
+            padding: 20px;
+        }
+        .monthly, .annual {
+            background-color: #fff;
+            border: 2px solid #070000;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color:white;
+        }
+        h4 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .price {
+            font-weight: bold;
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .buy-now-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .buy-now-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    
+    <h2>Membership</h2>
+    <div class="container">
+        <div class="monthly">
+            <h4>Monthly Membership</h4>
+            <p>
+                Get ready to make fitness a seamless part of your routine with our monthly gym membership. Here's what you'll enjoy:
+                <ul>
+                    <li>Unlimited Access: Work out whenever it suits you with unrestricted access to our gym.</li>
+                    <li>Diverse Workouts: From cardio to strength training, we've got all the equipment and classes you need to keep your routine fresh and exciting.</li>
+                    <li>Supportive Environment: Join a community of fellow fitness enthusiasts who are here to cheer you on every step of the way.</li>
+                    <li>Flexibility: Life happens, and we get that. With our monthly membership, you have the freedom to adjust or cancel your subscription as needed.</li>
+                </ul>
+                <p class="price">Price: 500 Rupees</p>
+                <button class="buy-now-button">Buy Now</button>
+            </p>
+        </div>
+        <div class="annual">
+            <h4>Annual Gym Membership</h4>
+            <p>
+                Ready to take your fitness to the next level? Our annual gym membership is your ticket to a year of unparalleled health and vitality. Here's why you should join us:
+                <ul>
+                    <li>Unbeatable Value: With our yearly subscription, you'll enjoy substantial savings compared to monthly plans. Invest in your health for the long haul while keeping more money in your pocket.</li>
+                    <li>Consistency Is Key: Say goodbye to the hassle of monthly renewals. With an annual membership, you can commit to your fitness goals with confidence, knowing that you have uninterrupted access to our top-notch facilities and amenities year-round.</li>
+                    <li>Exclusive Benefits: As a valued member, you'll unlock special perks and privileges, including priority class registration, discounted personal training sessions, and exclusive member-only events.</li>
+                    <li>Personalized Support: Our team of experienced trainers is dedicated to helping you succeed. Receive personalized guidance, tailored workout plans, and ongoing support to ensure you stay motivated and on track to reach your goals.</li>
+                    <li>Total Convenience: Enjoy the convenience of a seamless fitness experience. Whether you prefer to work out in the early morning or late evening, our extended hours and flexible scheduling options ensure that you can always find time to prioritize your health.</li>
+                </ul>
+                <p class="price">Price: 5000 Rupees</p>
+                <button class="buy-now-button">Buy Now</button>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
