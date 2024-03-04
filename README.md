@@ -83,12 +83,7 @@ This will tell the user the advantages of the gym and what they will get for the
 This will provide the user with an understanding of what types of activities are done at the gym that us so unique.
 ##### Activities Images
 The images will show the different types of activities.
-##### Contact Info
-This will show the user the information needed to contact the gym, the opening times and where it is located.
-##### Questions Form 
-This will allow the user to ask any issues or information they need help with.
-##### Questions Submit Button
-This button will allow the user complete the questions form.
+
 
 ##### Hamburger Icon 
 This icon will appear on smaller screens such as tablets and mobile phones so that the navigation bar doesn't take up too much room.
@@ -131,19 +126,16 @@ A new customer's user story will be achieved by going to the why join page and r
 
 #### 3. Easy Sign Up
 A potential customer's user story will be achieved as the sign up form is on the home page so the user is able to find it and join with ease.
-If you try to submit the form without filling in all fields which are 'First Name', 'Surname' and 'Email Address' then a pop up will appear to state that all fields need to be complete, this was done by adding 'Required' attribute.<br/>
+If you try to submit the form without filling in all fields which are 'First Name', 'Surname' and 'Email Address' and 'Password' then a pop up will appear to state that all fields need to be complete, this was done by adding 'Required' attribute.<br/>
 If all fields have been filled then the webpage will re-display itself, as I haven't yet learned how to do it correctly.
 
-#### 4. I want to be able to ask any questions I have
-A user's story will be achieved by going to the 'Contact Us' page and then going towards the bottom of the page and the user can ask any question.
-If the user attempts to submit the form without completing all fields then the form won't submit, the 'Required' attribute has been added to all the fields 'Full Name, 'Email Address' and the 'Question' to make this happened.
-If all fields are filled then the webpage will reload. 
+
 
 ##### Websites & Devices Testing 
-This website was tested on different devices such as a laptop, android devices and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
-During the testing phase for this project, I have changed the navbar so when it is on devices such as mobiles and tablets it will collapse into a hamburger icon, this was necessary as the navbar was taking up too much space on smaller devices.
+This website was tested on different devices such as a laptop and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
+During the testing phase for this project.
 Another issue I found was the footer would not stay at the bottom on desktop screens larger then laptops and the Ipad Pro, but I have rectified this know by using the sticky footer method to fit the footer at the bottom of the page.
-The images on the 'Activities' page were not sizing up correctly to match, I have rectified by making them all the same physical size before uploading them.
+
 
 ### Deployment
 This site is hosted by GitHub Pages, it is directly deployed via vercel and it will be regularly updated every time a commit is done.
