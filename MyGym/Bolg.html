@@ -45,14 +45,17 @@
             margin-bottom: 20px;
         }
 
-        button {
+        a.button {
             margin-top: 20px;
             background-color: #007bff;
             color: white;
             border: none;
             padding: 10px 20px;
             border-radius: 5px;
+            text-decoration: none;
             cursor: pointer;
+            text-align: center;
+            display: inline-block;
         }
 
         @media screen and (max-width: 600px) {
@@ -89,13 +92,7 @@
                 <li>Be patient. We’re in this together.</li>
             </ol>
         </div>
-        <button onclick="goBack()">Go Back</button>
+        <a href="index.html" class="button">Go Back</a>
     </div>
-
-    <script>
-        function goBack() {
-            window.location.href = 'index.html';
-        }
-    </script>
 </body>
 </html>
