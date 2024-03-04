@@ -178,10 +178,10 @@ Meet the awesome people who have contributed to this project:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/">
-        <img src="https://github.com/.png" width="100px;" alt="moh-15" style="border-radius:50%"/>
+      <a href="https://github.com/Aditya-Gope">
+        <img src="https://github.com/Aditya-Gope.png" width="100px;" alt="moh-15" style="border-radius:50%"/>
         <br />
-        <sub><b></b></sub>
+        <sub><b>Aditya Gope</b></sub>
       </a>
     </td>
     <td align="center">
