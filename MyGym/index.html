@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness and Gym Website</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px; /* Increase the margin */
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #ffc107;
+        }
+
+        /* Add space between blog items */
+        .blog-item {
+            margin-bottom: 20px;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .blog-item {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -29,7 +68,6 @@
                     <div class="content">
                         <span>Transform Your Body, Elevate Your Mind</span>
                         <h3>Make yourself stronger than your excuses.</h3>
-                       
                     </div>
                 </div>
             </div>
@@ -37,8 +75,30 @@
         </div>
     </section>
 
-    <!-- Other sections go here -->
+    <!-- Blog section -->
+    <section class="blogs">
+        <div class="blog-item">
+            <h2>Blog Title 1</h2>
+            <p>This is the content of Blog 1.</p>
+        </div>
+        <div class="blog-item">
+            <h2>Blog Title 2</h2>
+            <p>This is the content of Blog 2.</p>
+        </div>
+        <div class="blog-item">
+            <h2>Blog Title 3</h2>
+            <p>This is the content of Blog 3.</p>
+        </div>
+    </section>
 
-    <script src="js/script.js"></script> <!-- You might need a JavaScript file -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="membership.html">Services</a>
+            <a href="Bolg.html">Learn More</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </div>
+    </footer>
+
+   
 </body>
 </html>
