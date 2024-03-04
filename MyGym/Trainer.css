@@ -63,6 +63,7 @@ table {
     background-repeat: no-repeat;
     background-size: 1400px;
     background-color: black;
+    align-items: center;
   }
   
   .new{
@@ -72,4 +73,12 @@ table {
   .container{
     justify-content: center;
     text-align: center;
+  }
+  .final{
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
   }
