@@ -83,7 +83,8 @@ This will tell the user the advantages of the gym and what they will get for the
 This will provide the user with an understanding of what types of activities are done at the gym that us so unique.
 ##### Activities Images 📸
 The images will show the different types of activities.
-
+##### Contact Info 📞📲📱🤙📧
+This will show the user the information needed to contact the gym, the opening times and where it is located.
 
 ##### Hamburger Icon 🧿
 This icon will appear on smaller screens such as tablets and mobile phones so that the navigation bar doesn't take up too much room.
@@ -129,7 +130,10 @@ A potential customer's user story will be achieved as the sign up form is on the
 If you try to submit the form without filling in all fields which are 'First Name', 'Surname' and 'Email Address' and 'Password' then a pop up will appear to state that all fields need to be complete, this was done by adding 'Required' attribute.<br/>
 If all fields have been filled then the webpage will re-display itself, as I haven't yet learned how to do it correctly.
 
-
+#### 4. I want to be able to ask any questions I have
+A user's story will be achieved by going to the 'Contact Us' page and then going towards the bottom of the page and the user can ask any question.
+If the user attempts to submit the form without completing all fields then the form won't submit, the 'Required' attribute has been added to all the fields 'Full Name, 'Email Address' and the 'Question' to make this happened.
+If all fields are filled then the webpage will reload. 
 
 ##### Websites & Devices Testing 🕸️
 This website was tested on different devices such as a laptop and on multiple web browsers such as Google Chrome, Internet Exployer and Firefox to make sure that it was responsive and compatible.
