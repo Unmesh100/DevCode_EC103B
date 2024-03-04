@@ -185,10 +185,10 @@ Meet the awesome people who have contributed to this project:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/">
-        <img src="https://github.com/.png" width="100px;" alt="parthiv2406" style="border-radius:50%"/>
+      <a href="https://github.com/IamAkashSadhukhan">
+        <img src="https://github.com/IamAkashSadhukhan.png" width="100px;" alt="parthiv2406" style="border-radius:50%"/>
         <br />
-        <sub><b></b></sub>
+        <sub><b>Akash Sadhukhan</b></sub>
       </a>
     </td>
   </tr>
