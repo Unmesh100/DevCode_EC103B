@@ -1,3 +1,21 @@
+.button {
+  
+  margin-top: 10px; 
+}
+.button a{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5e5e;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+.button a:hover{
+  background-color: #ff2b2b;
+}
 .pop-up-text {
 color: white;
     position: relative;
@@ -50,4 +68,8 @@ table {
   .new{
     text-align: center;
     text-shadow: #333;
+  }
+  .container{
+    justify-content: center;
+    text-align: center;
   }
