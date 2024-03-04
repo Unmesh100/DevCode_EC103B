@@ -33,7 +33,8 @@
         }
         .container form label,
         .container form input,
-        .container form button {
+        .container form button,
+        .container form a {
             display: block;
             margin-bottom: 20px; /* Increased margin bottom */
             width: 100%; /* Make inputs and button full-width */
@@ -42,6 +43,23 @@
         .container form button {
             font-size: 18px; /* Increased font size of the button */
             cursor: pointer;
+        }
+        .container form a {
+            text-decoration: none;
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px; /* Increased margin top */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .container form a:hover {
+            background-color: #45a049; /* Darker green on hover */
         }
         h2{
             color:red
@@ -59,11 +77,10 @@
             <label for="password">Password</label>
             <input type="password" id="password" placeholder="Enter your password">
             <button type="submit">Login</button>
+            <a href="index.html">Back</a>
         </form>
     </div>
     
-    </div>
-
     <script>
         const form = document.getElementById('loginForm');
         form.addEventListener('submit', function(event) {

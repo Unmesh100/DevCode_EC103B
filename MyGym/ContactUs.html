@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ed0909;
+            padding: 20px;
+        }
+
+        .contact-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+            justify-items: center; /* Center align items horizontally */
+            align-items: center; /* Center align items vertically */
+            margin: 0 auto; /* Center align */
+            max-width: 1200px; /* Limit maximum width */
+        }
+
+        .contact-card {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-card h2 {
+            margin-top: 0;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .contact-card p {
+            margin: 10px 0;
+        }
+
+        .contact-card .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 5px 5px 5px 0; /* Adjust button margin */
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-cards">
+        <div class="contact-card">
+            <h2>John Doe</h2>
+            <p>Phone: 123-456-7890</p>
+            <a href="tel:123-456-7890" class="btn">Call</a>
+            <a href="mailto:john@example.com" class="btn">Email</a>
+            <a href="https://www.facebook.com/johndoe" class="btn" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/johndoe" class="btn" target="_blank">Instagram</a>
+        </div>
+
+        <div class="contact-card">
+            <h2>Jane Smith</h2>
+            <p>Phone: 987-654-3210</p>
+            <a href="tel:987-654-3210" class="btn">Call</a>
+            <a href="mailto:jane@example.com" class="btn">Email</a>
+            <a href="https://www.facebook.com/janesmith" class="btn" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/janesmith" class="btn" target="_blank">Instagram</a>
+        </div>
+
+        <div class="contact-card">
+            <h2>Michael Johnson</h2>
+            <p>Phone: 555-555-5555</p>
+            <a href="tel:555-555-5555" class="btn">Call</a>
+            <a href="mailto:michael@example.com" class="btn">Email</a>
+            <a href="https://www.facebook.com/michaeljohnson" class="btn" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/michaeljohnson" class="btn" target="_blank">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
