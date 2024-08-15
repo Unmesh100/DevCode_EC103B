@@ -37,6 +37,7 @@ body {
   
 }
 
+
 section {
   padding: 5rem 9%;
 }
@@ -58,6 +59,7 @@ section {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 
 .header {
   position: fixed;
