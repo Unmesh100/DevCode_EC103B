@@ -60,7 +60,7 @@ In the 'About' page, I have listed a summary of joining the gym at the top of th
 The next page is solely based on diffrent activites that the gym provides, the page is set up with a image of the activity with a brief description of why to join and what days the activites are done.<br/>
 The last page is the 'Blog' page, this is set up with the contact, timings and address details at the top of the page side by side and below is a questions form.<br/>
 
-
+ 
 ### Features 😌
 
 #### Existing Features 😲😱🤯
