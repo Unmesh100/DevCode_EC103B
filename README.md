@@ -1,6 +1,6 @@
 # Project ID - EC103B
 
-# Hacking Guide for MyGym 😎
+# Hacking Guide for MyGym 😎 
 
 ## MyGym 💪🫵🤞 
 
